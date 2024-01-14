@@ -8,7 +8,7 @@
 
 3. **PostgreSQL:** An advanced, open-source relational database management system known for its extensibility, standards compliance, and robust support for complex queries, making it a popular choice for web applications.
 
-4. **Migrate** -  Migrating your ASP.NET Core MVC application from SQL Server to PostgreSQL can bring flexibility and scalability to your database. In this guide, I will walk through the process, covering key steps to ensure a smooth transition.
+4. **Migration** -  Migrating your ASP.NET Core MVC application from SQL Server to PostgreSQL can bring flexibility and scalability to your database. In this guide, I will walk through the process, covering key steps to ensure a smooth transition.
 
 
 Follow the below steps
