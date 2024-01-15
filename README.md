@@ -63,7 +63,19 @@ builder.Services.AddDbContext<AuthenticationAppDbContext>(options => options.Use
 builder.Services.AddDbContext<IdentityContext>(options => options.UseNpgsql(connectionString));
 ```
 
+## Step 5: Run migration commands 
+
+```
+// Add Migration
+Add-Migration "Initial Create"
+
+// Update-Database - This will create physical databases
+Update-Database
+```
+
+
 This change ensures that your application now uses PostgreSQL as the underlying database.
+
 
 ## Conclusion
 
